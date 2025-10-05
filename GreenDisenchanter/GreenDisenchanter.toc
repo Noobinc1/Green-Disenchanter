@@ -1,0 +1,6 @@
+## Interface: 30300
+## Title: Green Disenchanter
+## Notes: Popup listing Uncommon (green) items to disenchant (Ascension-friendly)
+## Author: Joost
+## Version: 1.0
+GreenDisenchanter.lua
