@@ -1,4 +1,4 @@
-local ADDON_NAME = Green Disenchanter
+local ADDON_NAME = ...
 local SPELL_NAME = GetSpellInfo(13262) or "Disenchant" -- 13262 = Disenchant
 
 local f = CreateFrame("Frame")
@@ -214,3 +214,4 @@ f:SetScript("OnEvent", function(self, event)
         if main:IsShown() then Rebuild() end
     end
 end)
+
